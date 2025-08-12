@@ -197,24 +197,19 @@
             i = j;
 
         theta1_sum_cl_in_store = [];
-
         
         if  i < tau_d 
 
-
             eta = eta*(tau_d)/i*0.1; 
-
 
             for j = 1:i
                 theta1_sum_cl_in = (reward(theta, y_k_in_store(j)) - Reward_in_store(j)*ones(N,1)).*(-y_k_in_store(j).^2)./(1+y_k_in_store(j).^4.*eta); 
                 
                 theta1_sum_cl_in_store = [theta1_sum_cl_in_store; theta1_sum_cl_in'];
           
-
                 para_conv_theta1 =  y_k_in_store(j).^2.*y_k_in_store(j).^2; 
 
                 para_conv_theta1_in_taud = [para_conv_theta1_in_taud; para_conv_theta1];
-
             end
             
         else
@@ -223,12 +218,9 @@
                 
                 theta1_sum_cl_in_store = [theta1_sum_cl_in_store; theta1_sum_cl_in'];
                 
-
                 para_conv_theta1 =  y_k_in_store(j).^2.*y_k_in_store(j).^2; 
             
-
                 para_conv_theta1_in_taud = [para_conv_theta1_in_taud; para_conv_theta1];
- 
             end
         end
     
