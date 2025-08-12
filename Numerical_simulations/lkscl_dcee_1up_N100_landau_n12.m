@@ -75,7 +75,7 @@
     
     %%
     T = 80;
-    n = 8;
+    n = 12;
     
     %% Iteration
     for i = 1: T
