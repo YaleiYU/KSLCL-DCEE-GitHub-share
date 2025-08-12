@@ -98,7 +98,6 @@
     
         %% concurrent learning
         tau_d = 80;
-    
         theta1_sum_cl_store = [];
         theta2_sum_cl_store = [];
     
