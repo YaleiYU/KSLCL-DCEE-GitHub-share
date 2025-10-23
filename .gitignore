@@ -1,0 +1,26 @@
+**# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore node modules
+node_modules/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore build output
+dist/
+build/
+
+# Ignore tex compile output
+**/out/
+**/materials/
+
+
+# Codes
+**/Codes/
+
+
+# Simulink
+**/slprj/
