@@ -1,17 +1,20 @@
 # KSLCL-DCEE-GitHub-share
 
+
 ## Overview
-The repository is for the simulations of KSLCL-DCEE algorithm both numerical and photovoltaic simulations
+This repository contains MATLAB code for the implementation of the KSLCL-DCEE (k-Step Lookahead Active Concurrent Learning-based Dual Control of Exploration and Exploitation) algorithm. The code is designed to perform numerical simulations and photovoltaic simulations based on the KSLCL-DCEE framework.
+
 
 ## Features
 - Numerical simulations 
   - Functions
-  - PLot_results
+  - Plot_results
   - Four main scripts for different case studies
 - Photovoltaic simulations
   - Simulink model
   - Main script for photovoltaic simulations
   - Plot results for photovoltaic simulations (due to size limit, data files are not included for this scenario, please contact the author for the data files)
+
 
 ## Requirements
 - MATLAB R2023b
@@ -21,12 +24,14 @@ The repository is for the simulations of KSLCL-DCEE algorithm both numerical and
   - Simscape Electrical
   - Signal processing Toolbox 
 
-
+  
 ## Usage
 ```run the scripts in MATLAB to perform the simulations```
 
+
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 
 ## Acknowledgments
 - Thanks to the contributors and maintainers of the open-source libraries and tools used in this project.
