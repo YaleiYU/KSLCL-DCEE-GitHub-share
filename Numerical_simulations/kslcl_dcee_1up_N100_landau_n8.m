@@ -2,6 +2,9 @@
     clear
     close all
     
+    %% add path of functions
+    addpath('Functions')
+
     %% Simulation Parameters
     thetaStar = 1;
     

@@ -1,2 +1,23 @@
 # KSLCL-DCEE-GitHub-share
-Share the code of KSLCL-DCEE to reviewers
+
+## Overview
+The repository is for the simulations of KSLCL-DCEE algorithm both numerical and photovoltaic simulations
+
+## Features
+- Numerical simulations 
+- Photovoltaic simulations
+
+## Requirements
+- MATLAB R2023b
+- Required toolboxes :
+  - Simulink
+  - Simscape
+  - Simscape Electrical
+  - Signal processing Toolbox 
+
+
+## Usage
+```matlab
+main
+
+
