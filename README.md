@@ -1,4 +1,4 @@
-# KSLCL-DCEE-GitHub-share
+# Code repository for paper "k-Step Lookahead Active Concurrent Learning-Based Dual Control of Exploration and Exploitation for Auto-Optimization"
 
 
 ## Overview
