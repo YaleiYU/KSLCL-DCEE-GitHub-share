@@ -5,7 +5,13 @@ The repository is for the simulations of KSLCL-DCEE algorithm both numerical and
 
 ## Features
 - Numerical simulations 
+  - Functions
+  - PLot_results
+  - Four main scripts for different case studies
 - Photovoltaic simulations
+  - Simulink model
+  - Main script for photovoltaic simulations
+  - Plot results for photovoltaic simulations (due to size limit, data files are not included for this scenario, please contact the author for the data files)
 
 ## Requirements
 - MATLAB R2023b
@@ -17,7 +23,20 @@ The repository is for the simulations of KSLCL-DCEE algorithm both numerical and
 
 
 ## Usage
-```matlab
-main
+```run the scripts in MATLAB to perform the simulations```
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+- Thanks to the contributors and maintainers of the open-source libraries and tools used in this project.
+- Special thanks to the research community for their valuable insights and feedback.
+- This work was supported by by the UK Engineering and Physical Sciences Research Council (EPSRC) Established Career Fellowship “Goal-Oriented Control Systems: Disturbance, Uncertainty and Constraints” under the grant number EP/T005734/1.
+
+
+## Contact
+y.yu2@lboro.ac.uk
+
+
 
 
