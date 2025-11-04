@@ -17,7 +17,7 @@ This repository contains MATLAB code for the implementation of the KSLCL-DCEE (k
 
 
 ## Requirements
-- MATLAB R2023b
+- MATLAB R2024b
 - Required toolboxes :
   - Simulink
   - Simscape
@@ -42,6 +42,7 @@ This repository contains MATLAB code for the implementation of the KSLCL-DCEE (k
 ![lookahead](Figures/PV%20Sim/power.png)
 
 ![lookahead](Figures/PV%20Sim/energy_loss.png)
+
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
